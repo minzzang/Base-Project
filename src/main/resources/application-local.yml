@@ -1,0 +1,9 @@
+spring:
+  profiles: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://database-1.cnp6altchgpr.ap-northeast-2.rds.amazonaws.com:3306/base_project?autoReconnect=true&useSSL=false&characterEncoding=utf8
+    username: admin
+    password: alswpwlsgud
+server:
+  port: 8080
